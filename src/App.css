@@ -14,6 +14,7 @@
   float: left;
   margin: 3vh;
   height: 95vh;
+
 }
 
 .yellow{
@@ -83,22 +84,48 @@
 }
 .task-btn{
   width: 4vh;
-    height: 3vh;   
-    cursor: pointer;
-    margin-right: 2vh;
+  height: 3vh;   
+  cursor: pointer;
+  margin-right: 2vh;
 }
 .align-btn{
   float: right;
 }
 
 .task-btn:hover{
-    color: rgb(255, 255, 255);
-    width: 5vh ;
-    height: 4vh;
+  color: rgb(255, 255, 255);
+  width: 5vh ;
+  height: 4vh;
 }
 .incompleted{
   color: rgb(0 0 0);
 }
 .completed{
   color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1533px) {
+ .redContainer {
+  width: 50%;
+}
+
+.container{
+   float: right;    
+    margin-right: 1vh;
+    width: 41%;
+}
+.task-btn {
+  width: 3vh;
+  height: -1px;
+  cursor: pointer;
+}
+
+.todo-list{
+  width: 82%;
+  height: 5%; 
+  padding: 1vh;
+  font-size: 2vh;
+  margin: 2vh;
+}
+
 }
